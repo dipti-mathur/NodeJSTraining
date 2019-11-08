@@ -1,0 +1,11 @@
+doctype html
+html(lang='en')
+    body
+        table
+            tr
+                th id
+                th name
+                    each u in users
+                        tr
+                            td= u.id
+                            td= u.name
